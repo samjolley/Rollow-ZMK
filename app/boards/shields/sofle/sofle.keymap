@@ -10,10 +10,18 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-#define BASE 0
-#define LOWER 1
-#define RAISE 2
-#define ADJUST 3
+// Define Layers
+#define BASE   0   // Default alpha layer - Hands Down Gold (Neu-tx)
+#define EXTRA  1   // QWERTY
+#define TAP    2   // 
+#define BUTTON 3   // Shortcuts for copy/paste, alt/control/GUI/shift, etc.
+#define NAV    4   // Navigation
+#define MOUSE  5   // Mouse keys
+#define MEDIA  6   // Play, pause, etc.
+#define NUM    7   // Numbers
+#define SYM    8   // Symbols
+#define FUN    9   // Function keys + keyboard settings
+#define EMOJI  10  // Emojis, like ¯\_(ツ)_/¯
 
 / {
 
